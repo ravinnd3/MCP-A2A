@@ -5,10 +5,13 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "dataclasses>=0.8",
+    "email-validator>=2.3.0",
     "gradio>=6.3.0",
     "ipykernel>=7.1.0",
     "mcp[cli]>=1.25.0",
     "openai>=2.15.0",
+    "pydantic>=2.12.5",
     "pypdf>=6.6.0",
     "requests>=2.32.5",
     "tensorflow>=2.20.0",
